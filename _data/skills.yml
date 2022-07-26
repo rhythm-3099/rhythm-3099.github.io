@@ -3,31 +3,28 @@ languages:
   - item: TypeScript
   - item: HTML
   - item: CSS/Sass
-  - item: Python
+  - item: C/C++
   - item: SQL
-  - item: R
+  - item: Python
 
 frameworks:
-  - item: Ember & Glimmer
   - item: React
-  - item: Jekyll
+  - item: Redux
   - item: Node
-  - item: D3
-  - item: Wordpress
-  - item: Timber
+  - item: Next.js
+  - item: GraphQL
+  - item: TailwindCSS
+  - item: Storybook.js
+  - item: Express
+
 
 tools:
-  - item: Bash
   - item: Git & Github
-  - item: Gulp & Grunt
-  - item: Chrome DevTools
+  - item: VS Code
+  - item: NPM
   - item: Postman
-  - item: MongoDB
+  - item: Amazon Web Services
 
-design:
-  - item: Sketch
-  - item: InDesign
-  - item: InVision
-  - item: Prototyping
-  - item: Wireframing
-  - item: User Testing
+databases:
+  - item: PostgreSQL
+  - item: MongoDB
