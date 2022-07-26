@@ -7,20 +7,14 @@ baseurl: ''
 email: brittany.chiang@gmail.com
 cover: https://bchiang7.github.io/img/og.png
 logo: https://bchiang7.github.io/img/emojis/technologist.png
-resume: https://bchiang7.github.io/resume.pdf
+resume: https://drive.google.com/drive/folders/1iZuNRwolzOF2uAvfskm6W2_tfheJSAaw
 social:
   - title: email
-    url: mailto:brittany.chiang@gmail.com
-  - title: twitter
-    url: https://twitter.com/bchiang7
-  - title: instagram
-    url: https://instagram.com/bchiang7
-  - title: codepen
-    url: http://codepen.io/bchiang7
+    url: mailto:patelrhythmr@gmail.com
   - title: github
-    url: https://github.com/bchiang7
+    url: https://github.com/rhythm-3099
   - title: linkedin
-    url: https://www.linkedin.com/in/bchiang7
+    url: https://www.linkedin.com/in/rhythm-3099/
 
 # Build settings
 markdown: kramdown
