@@ -1,6 +1,7 @@
 .footer {
   padding: 50px 80px;
   display: flex;
+  justify-items: flex-end;
   justify-content: space-between;
   align-items: center;
   @include desktop {
