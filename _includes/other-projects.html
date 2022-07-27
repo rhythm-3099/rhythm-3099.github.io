@@ -4,7 +4,9 @@
     {% for project in site.data.other-projects %}
     <div class="project">
       <div class="project__name">
-        <a href="{{project.url}}" target="_blank" class="arrow-link">{{project.name}}</a>
+        <a href="{{project.url}}" target="_blank" class="arrow-link"
+          >{{project.name}}</a
+        >
       </div>
       <p>{{project.description}}</p>
       <div class="project__used">
@@ -14,5 +16,13 @@
       </div>
     </div>
     {% endfor %}
+    <h2>
+      <a
+        href="https://github.com/rhythm-3099?tab=repositories"
+        target="_blank"
+        class="arrow-link"
+        >More projects</a
+      >
+    </h2>
   </div>
 </section>
