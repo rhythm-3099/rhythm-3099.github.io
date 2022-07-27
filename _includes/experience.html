@@ -11,7 +11,17 @@
           <div class="job__time">{{job.time}}</div>
         </div>
         <div class="job__position">{{job.position}}</div>
-        <!-- <h1>Hi</h1> -->
+        <div class="job__description">{{job.description}}</div>
+        <ul class="job__responsiblities">
+          {% for work in job.work %}
+            <li class="job__responsibilities__responsibility">{{work.thing}}</li>
+        {% endfor %}
+        </ul>
+        <div class="job__used">
+          {% for tech in job.tech %}
+          <div class="job__used__item">{{tech.used}}</div>
+          {% endfor %}
+        </div>
       </div>
       {% endfor %}
     </div>

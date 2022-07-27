@@ -11,10 +11,10 @@ frameworks:
   - item: React
   - item: Redux
   - item: Node
-  - item: Next.js
+  - item: Next JS
   - item: GraphQL
   - item: TailwindCSS
-  - item: Storybook.js
+  - item: Storybook JS
   - item: Express
 
 

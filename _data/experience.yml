@@ -2,13 +2,45 @@
   url: https://www.toddleapp.com/
   time: July 2021 - May 2022
   position: Product Engineer
+  description: I worked in the Design System team. This project was used by all the other frontend teams in the company to create consistent user interfaces and experiences.
+  work:
+    - thing: Responsible for creating customizable components and layouts using React Typescript and Tailwind CSS.
+    - thing: Bootstrapped the package updation process using Gitlab multi-project pipeline flow and yaml to bump the design system package versions across all the frontend projects of the company.
+    - thing: Maintained a detailed storybook using Storybook JS for better developer and designer experience across the teams
+    - thing: Assisted other engineers in using the components, typography and themes from the design package.
+  tech:
+    - used: React
+    - used: Typescript
+    - used: Storybook JS
+    - used: Tailwind CSS
+    - used: Node
 
 - company: Toddle - Your Teaching Partner
   url: https://www.toddleapp.com/
   time: Jan 2021 - June 2021
   position: Frontend Engineering Intern
+  description: I worked in the Classroom and Portfolio team. This team was responsible for creating the classroom experience at Toddle.
+  work:
+    - thing: Integrated a third-party image annotation tool using iframe communication that worked not only with the Classroom module, but the entire platform.
+    - thing: Revamped the assignment grading flow in the classroom module end to end.
+    - thing: Restructured and improved the event rescheduling feature in the Toddle calender module, where the teacher could now directly edit the event from the calender view.
+    - thing: Implemented a 12-hour time picker component and made it compatible with the existing backend code to handle the time input.
+  tech:
+    - used: React
+    - used: Redux
+    - used: GraphQL
+    - used: Sass
 
 - company: Amazon
   url: https://www.amazon.com/
   time: May 2020 - June 2020
   position: Software Developer Intern
+  description: I interned in the Matching Quality team, India in the Search Science and AI organization at Amazon. This team was primarily responsible for building ML models to improve the order of the search results at Amazon.
+  work:
+    - thing: Engineered a data processing and analysis tool that would perform the necessary sanity check on the important columns and clean the dataset for further use.
+    - thing: Created an alert mechanism that would mail to the mailing list with a detailed report about the data sanity.
+    - thing: Deployed this analysis and alerting tool on AWS Lambda to automate the preprocessing job as soon as a new dataset got added in the source S3 bucket.
+  tech:
+    - used: Pandas
+    - used: AWS S3
+    - used: AWS SES

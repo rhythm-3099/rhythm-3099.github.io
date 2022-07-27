@@ -3,7 +3,7 @@
     margin-bottom: 100px;
   }
   .job {
-    margin-bottom: 25px;
+    margin-bottom: 35px;
     .time-place {
       display: flex;
       justify-content: space-between;
@@ -19,6 +19,40 @@
       font-family: 'Inconsolata', monospace;
       @include mobile {
         font-size: 0.8rem;
+      }
+    }
+    .job__description {
+      margin-top: 8px;
+    }
+    &__used {
+      margin-top: 20px;
+      &__item {
+        display: inline-block;
+        margin: 3px 3px 3px 0;
+        font-family: 'Inconsolata', monospace;
+        font-size: 0.75rem;
+        font-weight: 700;
+        padding: 2px 7px;
+        border-radius: 3px;
+        color: $blue;
+        border: 1px solid $blue;
+        background: transparent;
+        &:first-of-type {
+          margin-left: 0;
+        }
+      }
+    }
+    &__responsibilities {
+      list-style: none;
+      &__responsibility::before {
+        content: '✅';
+        display: inline-block;
+        margin-right: 8px;
+      }
+      &__responsibility {
+        &:first-of-type {
+          margin-top: 10px;
+        }
       }
     }
   }
