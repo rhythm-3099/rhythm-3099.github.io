@@ -1,4 +1,20 @@
-- company: Toddle - Your Teaching Partner
+- company: ClearBlade, Inc.
+  url: https://www.clearblade.com/
+  time: May 2023 - Present
+  position: Software Engineer Intern
+  description: I worked in the Intelligent Assets team. This product is the UI from which the users can monitor their assets and perform operations on them in real time.
+  work:
+    - thing: Developed a dynamic, paginated table component leveraging Material-Table and SQL, enabling users to intuitively group data by multiple columns leading to an increase in data exploration efficiency.
+    - thing: Collaborated on enhancing the IA dashboard by addressing critical unresolved UI issues, resulting in substantial improvements to user-friendliness.
+    - thing: Drove performance enhancements of the dashboard through meticulous optimization of SQL queries, resulting in a 40% reduction in query execution time and significantly improving overall user experience.
+  tech:
+    - used: React
+    - used: Typescript
+    - used: Material-UI
+    - used: SQL
+    - used: Node
+
+- company: Toddle
   url: https://www.toddleapp.com/
   time: July 2021 - May 2022
   position: Product Engineer
@@ -15,10 +31,10 @@
     - used: Tailwind CSS
     - used: Node
 
-- company: Toddle - Your Teaching Partner
+- company: Toddle
   url: https://www.toddleapp.com/
   time: Jan 2021 - June 2021
-  position: Frontend Engineering Intern
+  position: Software Engineering Intern
   description: I worked in the Classroom and Portfolio team. This team was responsible for creating the classroom experience at Toddle.
   work:
     - thing: Integrated a third-party image annotation tool using iframe communication that worked not only with the Classroom module, but the entire platform.
